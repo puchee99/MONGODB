@@ -1,0 +1,1 @@
+{"options":{"viewOn":"MirFlickr25K","pipeline":[{"$facet":{"TotalDocuments":[{"$count":"NombreDocuments"}],"#Classes+Classes":[{"$unwind":"$label"},{"$sortByCount":"$label"}]}}]},"indexes":[],"uuid":""}

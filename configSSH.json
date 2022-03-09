@@ -1,0 +1,15 @@
+{
+  "bd": "Outliers",
+
+  "ssh": {
+    "hostname": "dcccluster.uab.es",
+    "username": "student",
+    "password": "YscPEmzp7iplk",
+    "port": 52261
+  },
+
+  "hostname": "main.grup01.bdnr",
+  "username": "GestorDades",
+  "password": "gestor",
+  "port": 27017
+}

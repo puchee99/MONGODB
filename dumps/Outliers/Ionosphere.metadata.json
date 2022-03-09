@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Outliers.Ionosphere"},{"v":{"$numberInt":"2"},"key":{"label":{"$numberDouble":"1.0"}},"name":"label_1","ns":"Outliers.Ionosphere"}],"uuid":"b8f1bc2e6a144046ade1002ffb681a9f"}

@@ -1,0 +1,1 @@
+{"options":{"viewOn":"LetterRecognition","pipeline":[{"$project":{"label":{"$numberDouble":"1.0"}}},{"$group":{"_id":"$label"}}]},"indexes":[],"uuid":""}

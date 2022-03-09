@@ -1,0 +1,43 @@
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] MongoDB starting : pid=6491 port=27017 dbpath=/u02/mongo/db/ 64-bit host=main.grup01.bdnr
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] db version v4.0.2
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] modules: none
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] build environment:
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten]     distmod: rhel70
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-05-14T16:16:59.694+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true }, processManagement: { fork: true }, security: { authorization: "enabled", keyFile: "ssl/mongodb.pem" }, storage: { dbPath: "/u02/mongo/db/" }, systemLog: { destination: "file", path: "/home/student/mongo_info/mongod.log" } }
+2020-05-14T16:16:59.695+0000 I STORAGE  [initandlisten] Detected data files in /u02/mongo/db/ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2020-05-14T16:16:59.695+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=31603M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2020-05-14T16:17:00.795+0000 I STORAGE  [initandlisten] WiredTiger message [1589473020:795796][6491:0x7f760c67cb00], txn-recover: Main recovery loop: starting at 6/14848
+2020-05-14T16:17:00.910+0000 I STORAGE  [initandlisten] WiredTiger message [1589473020:910673][6491:0x7f760c67cb00], txn-recover: Recovering log 6 through 7
+2020-05-14T16:17:01.033+0000 I STORAGE  [initandlisten] WiredTiger message [1589473021:33588][6491:0x7f760c67cb00], txn-recover: Recovering log 7 through 7
+2020-05-14T16:17:01.090+0000 I STORAGE  [initandlisten] WiredTiger message [1589473021:90599][6491:0x7f760c67cb00], txn-recover: Set global recovery timestamp: 0
+2020-05-14T16:17:01.357+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] 
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] ** WARNING: You are running on a NUMA machine.
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] **          We suggest launching mongod like this to avoid performance problems:
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] **              numactl --interleave=all mongod [other options]
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] 
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] 
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2020-05-14T16:17:01.964+0000 I CONTROL  [initandlisten] 
+2020-05-14T16:17:01.965+0000 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 4096 processes, 65536 files. Number of processes should be at least 32768 : 0.5 times number of files.
+2020-05-14T16:17:01.965+0000 I CONTROL  [initandlisten] 
+2020-05-14T16:17:02.646+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/u02/mongo/db/diagnostic.data'
+2020-05-14T16:17:02.649+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2020-05-14T16:17:03.475+0000 I CONTROL  [free_mon] Free Monitoring is Enabled. Frequency: 60 seconds
+2020-05-14T16:17:07.085+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2020-05-14T16:17:07.086+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2020-05-14T16:17:07.086+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2020-05-14T16:17:07.086+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2020-05-14T16:17:07.087+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2020-05-14T16:17:07.091+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2020-05-14T16:17:07.483+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2020-05-14T16:17:07.483+0000 I CONTROL  [signalProcessingThread] now exiting
+2020-05-14T16:17:07.483+0000 I CONTROL  [signalProcessingThread] shutting down with code:0

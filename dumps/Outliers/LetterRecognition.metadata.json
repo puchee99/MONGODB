@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Outliers.LetterRecognition"},{"v":{"$numberInt":"2"},"key":{"label":{"$numberDouble":"1.0"}},"name":"label_1","ns":"Outliers.LetterRecognition"}],"uuid":"25ab07f7f0d34df7981c01f2b9debafb"}

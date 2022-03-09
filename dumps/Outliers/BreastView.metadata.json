@@ -1,0 +1,1 @@
+{"options":{"viewOn":"BreastCancer","pipeline":[{"$facet":{"TotalDocuments":[{"$count":"NombreDocuments"}],"#Classes+Classes":[{"$sortByCount":"$label"}]}}]},"indexes":[],"uuid":""}

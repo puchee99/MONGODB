@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Outliers.MirFlickr25K"}],"uuid":"4967cc89768b43f3a6996924fb1db5ec"}

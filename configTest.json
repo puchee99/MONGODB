@@ -1,0 +1,6 @@
+{"bd": "Outliers", "username":"GestorDades","password":"gestor","hostname" : "dcccluster.uab.es", "port" : "52261",
+  "mutual_k":"4",
+  "datasetName":"iris",
+  "numIterations" : "1",
+  "conf": "(2,0) (5,5) (2,8) (8,2)"
+}

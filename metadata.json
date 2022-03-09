@@ -1,0 +1,27 @@
+{
+  "iris": {
+    "label_pos": 4,
+    "k": "3"
+  },
+  "ionosphere": {
+    "label_pos": 34,
+    "k": "2"
+  },
+  "letter-recognition": {
+    "label_pos": 0,
+    "k": "26"
+  },
+  "breast-cancer": {
+    "id": 0,
+    "label_pos": 10,
+    "labels": {"2": false, "4": true},
+    "k": "2"
+  },
+  "mirflickr25k": {
+    "label_folder" : "anno",
+    "images_folder": "images",
+    "descriptor_folder": "features",
+    "feat_size": "4",
+    "type": "f"
+  }
+}
